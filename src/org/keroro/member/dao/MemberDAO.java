@@ -10,7 +10,7 @@ import org.keroro.member.domain.Member;
 public class MemberDAO extends BaseDAO{
 	
 	private static final String NAMESPACE="org.keroro.dao.MemberMapper";
-
+	
 	public List<Member> getMemberList() throws Exception {
 		
 		try(SqlSession session = getSession()) {
